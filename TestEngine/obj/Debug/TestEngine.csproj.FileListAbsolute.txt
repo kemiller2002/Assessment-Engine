@@ -1,0 +1,154 @@
+C:\Projects\TestEngine\TestEngine\bin\roslyn\csc.exe
+C:\Projects\TestEngine\TestEngine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\TestEngine\TestEngine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\TestEngine\TestEngine\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\TestEngine\TestEngine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\TestEngine\TestEngine\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\TestEngine\TestEngine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\TestEngine\TestEngine\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\TestEngine\TestEngine\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\TestEngine\TestEngine\bin\roslyn\vbc.exe
+C:\Projects\TestEngine\TestEngine\bin\roslyn\VBCSCompiler.exe
+C:\Projects\TestEngine\TestEngine\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\TestEngine\TestEngine\bin\TestEngine.dll.config
+C:\Projects\TestEngine\TestEngine\bin\TestEngine.dll
+C:\Projects\TestEngine\TestEngine\bin\TestEngine.pdb
+C:\Projects\TestEngine\TestEngine\bin\Antlr3.Runtime.dll
+C:\Projects\TestEngine\TestEngine\bin\EntityFramework.dll
+C:\Projects\TestEngine\TestEngine\bin\EntityFramework.SqlServer.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Google.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\TestEngine\TestEngine\bin\Newtonsoft.Json.dll
+C:\Projects\TestEngine\TestEngine\bin\Owin.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Net.Http.Formatting.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Helpers.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Http.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Http.Owin.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Http.WebHost.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Mvc.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Optimization.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Razor.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.WebPages.dll
+C:\Projects\TestEngine\TestEngine\bin\System.Web.WebPages.Razor.dll
+C:\Projects\TestEngine\TestEngine\bin\WebGrease.dll
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\TestEngine\TestEngine\bin\Newtonsoft.Json.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Net.Http.Formatting.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Helpers.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Http.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Http.WebHost.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Mvc.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Optimization.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Razor.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.WebPages.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.WebPages.Razor.xml
+C:\Projects\TestEngine\TestEngine\bin\Antlr3.Runtime.pdb
+C:\Projects\TestEngine\TestEngine\bin\EntityFramework.xml
+C:\Projects\TestEngine\TestEngine\bin\EntityFramework.SqlServer.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Google.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projects\TestEngine\TestEngine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projects\TestEngine\TestEngine\bin\System.Web.Http.Owin.xml
+C:\Projects\TestEngine\TestEngine\obj\Debug\TestEngine.csprojResolveAssemblyReference.cache
+C:\Projects\TestEngine\TestEngine\obj\Debug\TestEngine.dll
+C:\Projects\TestEngine\TestEngine\obj\Debug\TestEngine.pdb
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\csc.exe
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\System.Collections.Immutable.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\System.Reflection.Metadata.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\vbc.exe
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\VBCSCompiler.exe
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\roslyn\VBCSCompiler.exe.config
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\TestEngine.dll.config
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\TestEngine.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\TestEngine.pdb
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Antlr3.Runtime.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\EntityFramework.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\EntityFramework.SqlServer.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Google.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Web.Infrastructure.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Newtonsoft.Json.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Owin.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Net.Http.Formatting.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Helpers.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Http.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Http.Owin.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Http.WebHost.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Mvc.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Optimization.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Razor.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.WebPages.Deployment.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.WebPages.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.WebPages.Razor.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\WebGrease.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Newtonsoft.Json.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Net.Http.Formatting.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Helpers.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Http.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Http.WebHost.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Mvc.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Optimization.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Razor.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.WebPages.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.WebPages.Deployment.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.WebPages.Razor.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Antlr3.Runtime.pdb
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\EntityFramework.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\EntityFramework.SqlServer.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Google.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\bin\System.Web.Http.Owin.xml
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\obj\Debug\TestEngine.csprojResolveAssemblyReference.cache
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\obj\Debug\TestEngine.dll
+C:\Builds\Internal Tools\Assessment Engine\TestEngine\obj\Debug\TestEngine.pdb

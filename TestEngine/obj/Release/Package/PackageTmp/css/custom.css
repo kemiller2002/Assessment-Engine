@@ -1,0 +1,54 @@
+﻿body {
+}
+
+
+
+span.correctWrapper {
+    width:300px;
+    vertical-align: top;
+    
+}
+
+
+.correct {
+    color: green;
+    font-weight:600;
+}
+
+.incorrect {
+    color:red; 
+    font-weight:600;
+}
+
+
+
+div.questionHeader {
+    padding: 0px 0px 0px 0px;
+    background-color: darkblue;
+    padding-left:12px;
+    width: 100%;
+    color:white;
+    font-weight:400
+}
+
+
+div.questionWrapper {
+    border: lightgray thin solid;
+}
+
+div.questionContentsWrapper {
+    padding:5px 5px 5px 5px;
+   
+}
+
+div.buttonWrapper {
+    padding-left:14px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+
+pre.header {
+    font-size: 10pt;
+    height:300px;
+    overflow: auto;
+}

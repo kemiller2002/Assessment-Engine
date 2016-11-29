@@ -1,0 +1,1463 @@
+[
+  {
+    "header": "",
+    "questions": [
+      {
+        "header": "QUESTION NO: 50",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of a\r\ncollection type that represents a doubly linked list.\r\nWhich of the following is the collection type being discussed?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The LinkedList<T> collection type.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The SortedSet<T> collection type.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The SortedList<T> collection type.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The List<T>collection type.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 49",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of developing an application for ABC.com. You want to include a method in\r\nyour code that loads an assembly given its file name or path.\r\nWhich of the following actions should you take?\r\nAssembly class.\r\nAssembly class.\r\nclass.\r\nclass.",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including code that makes use of the LoadFile method of the Assembly",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including code that makes use of the LoadFrommethod of the Assembly",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including code that makes use of the LoadWithPartialName method of the",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including code that makes use of the LoadModule method of the",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 48",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the\r\nWaitForFullGCComplete method.\r\nWhich of the following is TRUE with regards to the WaitForFullGCComplete method?\r\ngarbage collection by the common language is pending.\r\ngarbage collection by the common language runtime has completed.\r\ngarbage collection by the common language runtime has completed in a particular time-out period.\r\ngarbage collection by the common language runtime is pending in a particular time-out period.\r\nMicrosoft 70-483 Exam\r\n  24",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 47",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are discussing the use of a Task\r\nmethod that creates an awaitable task that asynchronously defers back to the current context\r\nwhen awaited.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The WhenAll method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The WaitAll method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The ConfigureAwait method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The Yield method.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 46",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of writing debug code that must include an attribute that makes the\r\nexecution of a method dependent on a preprocessing identifier.\r\nWhich of the following is the action you should take?\r\nE. You should consider making use of a Visual Basic attribute.\r\nMicrosoft 70-483 Exam\r\n  23",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider making use of a global attribute.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider making use of a custom attribute.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider making use of the Conditional attribute.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider making use of the Obsolete attribute.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 45",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are discussing the use of the #elif\r\ndirective.\r\nWhich of the following is TRUE with regards to the #elif directive?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It must be immediately followed by the #else directive.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It must be immediately followed by the #if directive.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It must be immediately followed by the #endif directive.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It can be used without a matching #endif directive.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 44",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with debugging a ABC.com application. You are informed that the\r\ndebugger must allow for the execution within the method to be broken as soon as the variable is\r\nzero or less. Furthermore, modifications should not affect the release version of the code.\r\nWhich of the following actions should you take?\r\nMicrosoft 70-483 Exam\r\n  22",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including the Write method of the Debug class in your code.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including the Print method of the Debug class in your code.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including the Flush method of the Debug class in your code.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including the Assert method of the Debug class in your code.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 43",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating an application allows users to enter time and dates. You are\r\nwriting code that includes a DateTime method, which converts the indicated string representation\r\nof a date and time to its DateTime equivalent using the specified format, culture-specific format\r\ninformation, and style. The method requires the format of the string representation to match the\r\nspecified format exactly. The method then returns a value that indicates whether the conversion\r\nwas successful.\r\nWhich of the following is the DateTime method that is being included?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " TryParseExact(String, String[], IFormatProvider, DateTimeStyles, DateTime)",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " TryParseExact(String, String, IFormatProvider, DateTimeStyles, DateTime)",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " TryParse(String, IFormatProvider, DateTimeStyles, DateTime)",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " TryParse(String, DateTime)",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 42",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of\r\nthe HashTable collection type.\r\nWhich of the following is TRUE with regards to the HashTable collection type?\r\nMicrosoft 70-483 Exam\r\n  21\r\nkey.",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " It represents a list of objects that can be accessed by index.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It represents a collection of key/value pairs that are organized based on the hash code of the",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It represents a last in, first out (LIFO) collection of objects.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It represents a first in, first out (FIFO) collection of objects.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 41",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of a\r\nmethod that moves the data reader on to the subsequent result, when examining the results of\r\nbatch Transact-SQL statements.\r\nWhich of the following is the SqlDataReader method that allows for this?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The NextResult method.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The Result method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Next method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The Read method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 40",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating an application for ABC.com. The written code includes an\r\nabstract class.\r\nWhich of the following is TRUE with regards to abstract classes? (Choose all that apply.)\r\nMicrosoft 70-483 Exam\r\n  20",
+        "answer": [
+          "A",
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " It is used to prevent derivation.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It provides a common definition of a base class that multiple derived classes can share.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It cannot be used as a base class.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It cannot be instantiated.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 39",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing a method of\r\nthe StringBuilder Class that attaches the default line terminator to the end of the current\r\nStringBuilder object.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " The Append(Object) method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The AppendFormat(String, Object) method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The AppendLine() method.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The AppendLine(String) method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 38",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of\r\nthe Public access modifier to specify the declared accessibility of a member or a type.\r\nWhich of the following is TRUE with regards to the Public access modifier?\r\nMicrosoft 70-483 Exam\r\n  19\r\nE. It allows unrestricted.",
+        "answer": [
+          "E"
+        ],
+        "distractors": [
+          {
+            "text": " It only allows access to the containing type.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It only allows access to the current assembly or types derived from the containing class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It only allows access to the current assembly.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It only allows access to the containing class or types derived from the containing class.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 37",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the\r\nWaitForFullGCApproach method.\r\nWhich of the following is TRUE with regards to the WaitForFullGCApproach method?\r\ngarbage collection by the common language is pending.\r\ngarbage collection by the common language runtime has completed.\r\ngarbage collection by the common language runtime has completed in a particular time-out period.\r\ngarbage collection by the common language runtime is pending in a particular time-out period.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It is used to return the status of a registered notification for determining whether a full, blocking",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 36",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of developing a console application for ABC.com. While writing the\r\nnecessary code, you want to include the ability to accessa specific assembly in a specific .dll file.\r\nWhich of the following actions should you take?\r\nAssembly class.\r\nclass.\r\nMicrosoft 70-483 Exam\r\n  18\r\nclass.",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including code that makes use of the LoadFile method of the Assembly",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including code that makes use of the Load method of the Assembly class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including code that makes use of the GetFile method of the Assembly",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including code that makes use of the LoadModule method of the",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 35",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating an application for ABC.com. You are currently writing code\r\nthat uses a lambda expression to create an event handler.\r\nWhich of the following is TRUE with regards to lambda expressions? (Choose all that apply.)\r\ncreate delegates or expression tree types.\r\na single value, object, method, or namespace.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It is an expression of actions taken by the program.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It is a program element that is applied to one or more operands in an expression or statement.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It is a sequence of one or more operands and zero or more operators that can be evaluated to",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It is an anonymous function that can contain expressions and statements, and can be used to",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 34",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating a strong name assembly. To do this, you need to include one\r\nof two assembly attributes.\r\nWhich two of the following could you include? (Choose two.)\r\nMicrosoft 70-483 Exam\r\n  17",
+        "answer": [
+          "A",
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The AssemblyKeyFileAttribute.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The AssemblyCultureAttribute.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The AssemblyFileVersionAttribute.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The AssemblyKeyNameAttribute.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 33",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating an application that processes numerous objects in a single\r\nsecond. You want to include a performance counter to examine these processes.\r\nWhich of the following actions should you take FIRST?\r\nPerformanceCounterCategory.\r\nPerformanceCounterCategory class.",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider writing code that creates counters as CounterCreationData objects.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider writing code thatevokes the Create() method of the",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider writing code that creates a CounterCreationDataCollection.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider writing code that passes the collection to the Create() method of the",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 32",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating an application allows users to enter time and dates. You are\r\nwriting code that includes a DateTime method, which converts the indicated string representation\r\nof a date and time to its DateTime equivalent and returns a value that specifies whether the\r\nconversion was successful.\r\nWhich of the following is the DateTime method that is being included?\r\nMicrosoft 70-483 Exam\r\n  16",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " TryParseExact(String, String[], IFormatProvider, DateTimeStyles, DateTime)",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " TryParseExact(String, String, IFormatProvider, DateTimeStyles, DateTime)",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " TryParse(String, IFormatProvider, DateTimeStyles, DateTime)",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " TryParse(String, DateTime)",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 31",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with debugging a ABC.com application. You are informed that the\r\ndebugger must allow for the execution within the method to be broken as soon as the variable is\r\nzero or less in all builds of the application.\r\nWhich of the following actions should you take?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including the ToStringmethod of the Trace class in your code.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including the Refresh method of the Trace class in your code.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including the Flush method of the Trace class in your code.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including the Assert method of the Trace class in your code.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 30",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of creating an assembly for ABC.com, which will be utilized by various\r\nABC.com applications. Upon completion of the new assembly, you have to install it in the Global\r\nAssembly Cache (GAC).\r\nWhich of the following actions should you take?\r\nMicrosoft 70-483 Exam\r\n  15",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider making use of dbimpexp.exe from the command prompt.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider making use of dtutil.exe from the command prompt.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider making use of gacutil.exe from the command prompt.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider making use of dtexecui.exe from the command prompt.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 29",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating a new ABC.com application. The code includes a conditional\r\ndirective that starts with a #if directive.\r\nYou want to make sure that the conditional is suitably terminated.\r\nWhich of the following actions should you take?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider making use of the #elif directive.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider making use of the #else directive.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider making use of the #endif directive.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider making use of the #undef directive.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 28",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating a new ABC.com application. The new application must be\r\nconfigured to convey information between a ABC.com workstation and server in big quantities.\r\nYou are planning to include the HMACSHA256 algorithm in the development.\r\nWhich of the following describes the reason for including the HMACSHA256 algorithm?\r\nMicrosoft 70-483 Exam\r\n  14\r\nalgorithm.\r\nprobability that is better than one half.\r\nalgorithm.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It performs symmetric encryption and decryption using the CAPI implementation of the AES",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It classifies a wrapper object to access the CSP version of the DES algorithm.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It allows for the generation of output that is computationally infeasible to predict with a",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It allows for the authenticity of the information to be guaranteed via a cryptographic hashing",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 27",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating a method that will generate performance counters for a newly\r\ndeveloped application. You have written the necessary code, which creates a SampleFraction type\r\ncounter.\r\nYou have also been instructed to make sure that the counter can be utilized in Windows\r\nPerformance Monitor.\r\nWhich of the following actions should you take?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including a difference counter in your code.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including a percentage counter in your code.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including an average counter in your code.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including a base counter in your code.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 26",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have received instructions to create a new application for ABC.com. The code must allow for\r\ncertain string input data to be validated via the Regex class.\r\nWhich of the following is TRUE with regards to the Regex class?\r\nMicrosoft 70-483 Exam\r\n  13",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " It represents an absolute regular expression.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It represents the results from a single regular expression match.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It represents the results from a single capturing group.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It represents the results from a single successful subexpression capture.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 25",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of creating a new ABC.com application. You have written code that\r\nincludes a statement that consists of a try block followed by one or more catch clauses.\r\nWhich of the following is the statement being used?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The try-catch statement.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The try-finally statement.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The try-catch-finally statement.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The throw statement.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 24",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the reason\r\nfor adding the lockObject private object to a class.\r\nMicrosoft 70-483 Exam\r\n  12\r\nWhich of the following best describes this reason?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " To prevent any thread from accessing the object.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " To make sure that when a single thread attempts to access the object, a deadlock occurs.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " To allow only a single thread access to the object at a time.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " To allow multiple threads access to the object.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 23",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing a method of\r\nthe StreamReader class that examines a line of characters asynchronously from the current\r\nstream and returns the information as a string.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The ReadToEnd method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The ToString method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The ReadAsync method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The ReadLineAsync method.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 22",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nMicrosoft 70-483 Exam\r\n  11\r\nYou are running a training exercise for junior developers. You are currently discussing a method of\r\nthe StreamReader class that creates a shallow copy of the existing Object.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The MemberwiseClone method.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The ToString method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The CreateObjRef method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The ReadLine method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 21",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of creating a new ABC.com application. You have written code that\r\nincludes the Throw statement.\r\nWhich of the following is TRUE with regards to the Throw statement?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " It is used to obtain and use resources in a try block.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It is used to signal the occurrence of an atypical situation during the programs execution.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It is beneficial for cleaning up any resources that are allocated in the try block",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It contains a try block followed by one or more catch clauses",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 20",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nMicrosoft 70-483 Exam\r\n  10\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are discussing the use of the Task\r\nmethods. You are currently dealing with the ContinueWith method.\r\nWhich of the following is TRUE with regards to the ContinueWith method?\r\nE. It creates a continuation that executes synchronously when the target Task completes.",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " It runs the Task synchronously on the current TaskScheduler.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It releases all resources used by the current instance of the Task class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It creates a continuation that executes asynchronously when the target Task completes.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It creates a Task that will complete after a time delay.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 19",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are making use of C# to develop a console application for ABC.com. You have included the\r\nGetExecutingAssembly method in your code.\r\nWhich of the following describes the purpose of this method?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " It is used to load an assembly.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It is used to retrieve the assembly that contains the code that is currently executing.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It is used to retrieve the currently loaded assembly in which the specified class is defined.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It is used to retrieve the Type of the current instance.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 18",
+        "question": "Explanation:\r\nMicrosoft 70-483 Exam\r\n  9\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of creating a new ABC.com application. You have written code that\r\nincludes the Console.Readline method.\r\nWhich of the following is TRUE with regards to the Console.Readline method?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It reads the next character from the customized input stream.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It reads the next line of characters from the customized input stream.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It reads the next character from the standard input stream.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It reads the next line of characters from the standard input stream.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 17",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have received instructions to develop a class, named Customer, which exposes a string\r\nproperty, named CustomerType. You have been informed that your code should allow for the\r\nproperty to be accessible and customizable via code inside the Customer class or inside a class\r\nderived from the Customer class.\r\nWhich of the following actions should you take?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including the Private access modifier in your code.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including the Public access modifier in your code.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including the Protected Internal access modifier in your code.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including the Protected access modifier in your code.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 16",
+        "question": "Microsoft 70-483 Exam\r\n  8\r\nExplanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing a garbage\r\ncollector method that requests the system not call the finalizer for a specified object.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " The CancelFullGCNotificationmethod.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The PublicizeFinalize method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The SuppressFinalize method.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The KeepAlive method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 15",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing iterators.\r\nWhich of the following is TRUE with regards to iterators?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " It is the process of converting an object into a stream of bytes in order to store the object",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It provides a more flexible way to work with groups of objects.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It can be used to step through collections such as lists and arrays.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It represents code in a tree-like data structure, where each node is an expression.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 14",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating an application for ABC.com. The written code includes a\r\nsealed class.\r\nWhich of the following is TRUE with regards to sealed classes? (Choose all that apply.)",
+        "answer": [
+          "B",
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " It is used to prevent derivation.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It provides a common definition of a base class that multiple derived classes can share.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It cannot be used as a base class.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It cannot be instantiated.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 13",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the\r\nExtensionMethods class.\r\nWhich of the following is TRUE with regards to the ExtensionMethods class? (Choose all that\r\napply.)\r\nmethods on the extended type.\r\nMicrosoft 70-483 Exam\r\n  7\r\nmethods on the extended type.\r\nE. It allows you to add methods to current types without creating a new derived type.",
+        "answer": [
+          "B",
+          "E"
+        ],
+        "distractors": [
+          {
+            "text": " Methods of the class are a special kind of instance method that is called as if they were static",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It allows you to add methods to current types by recompiling.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Methods of the class are a special kind of static method that is called as if they were instance",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It allows you to add methods to current types by modifying the original type.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 12",
+        "question": "Explanation:\r\nMicrosoft 70-483 Exam\r\n  6\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have been tasked with creating an application that manages product data. You have written\r\nthe code shown below:\r\nPublic static void Save<T>(T target) where T : Product\r\n{\r\n}\r\nWhich of the following is TRUE with regards to this code? (Choose all that apply.)\r\naccepts no parameters.",
+        "answer": [
+          "A",
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " It only allows types inherited from the Product class that makes use of a constructor that",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It allows all types regardless of inheritance.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It prevents the Save() method from being strongly typed.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It allows for the Save() method to be strongly typed.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 11",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou are in the process of creating a new ABC.com application. You have written code that\r\nincludes the Console.WriteLine method.\r\nWhich of the following is TRUE with regards to the Console.WriteLine method?\r\nstream.\r\nstream.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It writes the text representation of the identified value or values to a customized output stream.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It writes the identified data, followed by the current line terminator, to a customized output",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It writes the text representation of the identified value or values to the standard output stream.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It writes the identified data, followed by the current line terminator, to the standard output",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 10",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of\r\nthe Private access modifier to specify the declared accessibility of a member or a type.\r\nWhich of the following is TRUE with regards to the Private access modifier?\r\nE. It allows unrestricted.",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " It only allows access to the containing type.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It only allows access to the current assembly or types derived from the containing class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It only allows access to the current assembly.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It only allows access to the containing class or types derived from the containing class.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 9",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the\r\nDataContractSerializer class.\r\nWhich of the following is TRUE with regards to the DataContractSerializer class?\r\nMicrosoft 70-483 Exam\r\n  5",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " It is used to serialize and deserialize instances of a type into an XML stream.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It is used to serialize and deserialize instances of a type into a TLL stream.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It is used to serialize and deserialize instances of a type into an SSL stream.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It is used to serialize and deserialize instances of a type into an HTML stream.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 8",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have written code that includes the DataContractSerializer class. The code also includes a\r\nDataContractSerializer class method that establishes whether the XmlReader is positioned on an\r\nobject that can be deserialized.\r\nWhich of the following is the method included in the code?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The IsStartObject(XmlReader) method.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The IsStartObject(XmlDictionaryReader)method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The WriteObject(XmlDictionaryWriter) method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The WriteObject(XmlWriter) method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 7",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have written code that includes the DataContractSerializer class. The code also includes a\r\nDataContractSerializer class property that obtains the component used to dynamically map\r\nxsi:type declarations to known contract types.\r\nWhich of the following is the property included in the code?\r\nMicrosoft 70-483 Exam\r\n  4",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The PreserveObjectReferences property.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The KnownTypes property.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The DataContractSurrogate property.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The DataContractResolver property.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 6",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing a method\r\nthat Reads data from the specified file. The reads occur at the position specified by the file pointer.\r\nWhich of the following is the method being discussed.\r\nE. The ReadFileScatter method.",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The OpenEncryptedFileRaw method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The ReadFile method.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The OpenFile method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The ReadFileEx method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 5",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of\r\nLINQ queries.\r\nMicrosoft 70-483 Exam\r\n  3\r\nWhich of the following is NOT considered a distinct action of a LINQ query?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " Executing the query.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Creating the data source.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Obtaining the data source.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " Creating the query.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 4",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have received instructions to create a custom collection for ABC.com. Objects in the\r\ncollection must be processed via a foreach loop.\r\nWhich of the following is TRUE with regards to the required code?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The code should implement the IEnumerator interface.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The code should implement the IEnumerable interface.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The code should implement the IComparer interface.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The code should implement the ICollection interface.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 3",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nMicrosoft 70-483 Exam\r\n  2\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of a\r\nmethod that moves the SqlDataReader on to the subsequent record.\r\nWhich of the following is the SqlDataReader method that allows for this?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The NextResult method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The Result method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Next method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The Read method.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 2",
+        "question": "Explanation:\r\nYou work as a developer at ABC.com. The ABC.com network consists of a single domain named\r\nABC.com.\r\nYou have written the following code segment:\r\nint[] filteredEmployeeIds = employeeIds.Distinct().Where(value => value !=\r\nemployeeIdToRemove).OrderByDescending(x => x).ToArray();\r\nWhich of the following describes reasons for writing this code? (Choose two.)",
+        "answer": [
+          "A",
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " To remove all integers from the employeeIds array.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " To remove duplicate integers from the employeeIds array.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " To sort the array in order from the lowest value to the highest value.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " To sort the array in order from the highest value to the lowest value.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 1",
+        "question": "You work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of\r\nthe Queue <T> collection type.\r\nWhich of the following is TRUE with regards to the Queue <T>collection type?\r\nIComparer<T> implementation.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It represents a list of objects that can be accessed by index.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It represents a collection of key/value pairs that are sorted by key based on the associated",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It represents a last in, first out (LIFO) collection of objects.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It represents a first in, first out (FIFO) collection of objects.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      }
+    ]
+  }
+]

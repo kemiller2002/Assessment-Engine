@@ -1,0 +1,36 @@
+[
+  {
+    "header": "Topic 1, Scenario 1\r\nBackground\r\nYou are employed as a developer at ABC.com. You are making use of C# and XAML to create a\r\nWindows Store app that enables users to share and rate audio visual media. Data relating to audio\r\nvisual media contests will be released to app users.\r\nApplication Structure\r\nA derivative of the DataStoreBase class should be used to store app data. A centralized RESTful\r\nweb service will be used by the app to synchronize user content. The web service supplies the\r\napp with contest schedule information. The app should be configured to prompt users about the\r\npending contest completion.\r\nA data-bound list box has been configured to display a list of accessible audio visual media for\r\nviewing. Fresh media is frequently downloaded by the app from the web service.\r\nBusiness Prerequisites\r\nThe app should be able to run on various devices. This includes devices with inadequate\r\nbandwidth. The app should enable users to share and synchronize high resolution audio visual\r\nmedia, as well as rate media.\r\nTechnical Prerequisites\r\nThe app should preserve state for every user and device. Every time the app is initiated, the\r\nearlier saved state should be re-established. The app should also preserve user state and media\r\nreworks when swapping between apps. The user interface, tile images, and data should be\r\nreloaded with up to date info from the web service when the app restarts subsequent to being\r\nsuspended.\r\nThe audio visual media list box should be updated as media is added to the audio visual media file\r\nlist. When binding the audio visual media file list to the list box, the audio visual media paths\r\nshould be transformed into audio visual media.\r\nCached audio visual media should only be hosted on the device by the app. the app tile should be\r\nfrequently updated with random media from the user's collection, and be displayed individually.\r\nThe tile must display the average user rating as a badge if the audio visual media has a user\r\nrating. If not, the Unavailable glyph should be displayed as a badge. The app tile should allow for\r\nreal time updating to make sure that only the latest notification is displayed on the app tile.\r\nToast notifications indicating the completion of a contest should be based on the contest schedule\r\nobtained from the web service, and be visible for the maximum duration. The toast notifications\r\nshould be displayed when the app is running or not. The data of the contest that activated the\r\ntoast notification must be displayed when opening this toast notification.\r\nMicrosoft 70-484 Exam\r\n\"Pass Any Exam. Any Time.\" - www.actualtests.com 2",
+    "questions": [
+      {
+        "header": "QUESTION NO: 50",
+        "question": "Explanation:\r\nYou work as a senior developer at ABC.com. The ABC.com network consists of a single domain\r\nnamed ABC.com.\r\nYou are running a training exercise for junior developers. You are currently discussing the use of a\r\ncollection type that represents a doubly linked list.\r\nWhich of the following is the collection type being discussed?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The LinkedList<T> collection type.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The SortedSet<T> collection type.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The SortedList<T> collection type.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The List<T>collection type.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      }
+    ]
+  }
+      ]

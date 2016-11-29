@@ -1,0 +1,1379 @@
+[
+  {
+    "header": "Topic 1, Scenario 1\r\nBackground\r\nYou are employed as a developer at ABC.com. You are making use of C# and XAML to create a\r\nWindows Store app that enables users to share and rate audio visual media. Data relating to audio\r\nvisual media contests will be released to app users.\r\nApplication Structure\r\nA derivative of the DataStoreBase class should be used to store app data. A centralized RESTful\r\nweb service will be used by the app to synchronize user content. The web service supplies the\r\napp with contest schedule information. The app should be configured to prompt users about the\r\npending contest completion.\r\nA data-bound list box has been configured to display a list of accessible audio visual media for\r\nviewing. Fresh media is frequently downloaded by the app from the web service.\r\nBusiness Prerequisites\r\nThe app should be able to run on various devices. This includes devices with inadequate\r\nbandwidth. The app should enable users to share and synchronize high resolution audio visual\r\nmedia, as well as rate media.\r\nTechnical Prerequisites\r\nThe app should preserve state for every user and device. Every time the app is initiated, the\r\nearlier saved state should be re-established. The app should also preserve user state and media\r\nreworks when swapping between apps. The user interface, tile images, and data should be\r\nreloaded with up to date info from the web service when the app restarts subsequent to being\r\nsuspended.\r\nThe audio visual media list box should be updated as media is added to the audio visual media file\r\nlist. When binding the audio visual media file list to the list box, the audio visual media paths\r\nshould be transformed into audio visual media.\r\nCached audio visual media should only be hosted on the device by the app. the app tile should be\r\nfrequently updated with random media from the user's collection, and be displayed individually.\r\nThe tile must display the average user rating as a badge if the audio visual media has a user\r\nrating. If not, the Unavailable glyph should be displayed as a badge. The app tile should allow for\r\nreal time updating to make sure that only the latest notification is displayed on the app tile.\r\nToast notifications indicating the completion of a contest should be based on the contest schedule\r\nobtained from the web service, and be visible for the maximum duration. The toast notifications\r\nshould be displayed when the app is running or not. The data of the contest that activated the\r\ntoast notification must be displayed when opening this toast notification.\r\nMicrosoft 70-484 Exam\r\n\"Pass Any Exam. Any Time.\" - www.actualtests.com 2",
+    "questions": [
+      {
+        "header": "QUESTION NO: 8",
+        "question": "Explanation:\r\nYou are writing code that satisfies the prerequisites for when a user accesses the toast notification\r\nof a contest that is reaching completion.\r\nMicrosoft 70-484 Exam\r\n  5\r\nWhich of the following is a method that should be included in your code?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " The HasAttribute method of the XmlElement class.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The GetAttributeNode method of the XmlElement class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The SetAttribute method of the XmlElement class.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The GetAttribute method of the XmlElement class.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 7",
+        "question": "Explanation:\r\nYou have been instructed to make sure that the app shows the necessary data when it is\r\nresumed. You want to make sure that the prerequisites regarding the scenario are met.\r\nWhich of the following actions should you take?\r\nApplicationExecutionState enumeration for the user interface state.\r\nApplicationExecutionState enumeration for the user interface state.\r\nenumeration for the user interface state.\r\nApplicationExecutionState enumeration for the user interface state.",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider configuring the app to make use of the ClosedByUser",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider configuring the app to make use of the Running ApplicationExecutionState",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider configuring the app to make use of the Terminated",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider configuring the app to make use of the InitiatedByUser",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 6",
+        "question": "Explanation:\r\nYou are preparing to write code to toast notifications for the contest as per the prerequisites.\r\nWhich of the following is a method that should be included in your code?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The HasAttribute method of the XmlElement class.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The GetAttributeNode method of the XmlElement class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The GetAttribute method of the XmlElement class.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The GetElementsByTagName method of the XmlElement class.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 5",
+        "question": "Explanation:\r\nYou are preparing to make sure that the app tile accurately displays notifications in keeping with\r\nthe prerequisites.\r\nYou need to make use of a method of the tileUpdater class.\r\nWhich of the following is the method you should use?\r\nMicrosoft 70-484 Exam\r\n  4",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " The AddToSchedule method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The GetScheduledTileNotifications method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The EnableNotificationQueue method.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The StartPeriodicUpdate method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 4",
+        "question": "Explanation:\r\nYou are configuring a method to make sure that cached information is saved in keeping with the\r\nprerequisites.\r\nWhich of the following actions should you take?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider making use of the SaveDataToWebService method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider making use of the SaveDataToLocalStorage method.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider making use of the SaveDataToExternalStorage method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider making use of the SaveDataToGeneralStorage method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 3",
+        "question": "Explanation:\r\nYou have been instructed to make sure that the app shows the necessary data when it is initiated.\r\nYou want to make sure that the prerequisites regarding the scenario are met.\r\nWhich of the following actions should you take?\r\nApplicationExecutionState enumeration for the user interface state.\r\nMicrosoft 70-484 Exam\r\n  3\r\nApplicationExecutionState enumeration for the user interface state.\r\nenumeration for the user interface state.\r\nenumeration for the user interface state.",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider configuring the app to make use of the Ended ApplicationExecutionState",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider configuring the app to make use of the Poised ApplicationExecutionState",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider configuring the app to make use of the Terminated",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider configuring the app to make use of the Completed",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 2",
+        "question": "Explanation:\r\nYou are preparing to configure binding for the image list box in keeping with the prerequisites.\r\nWhich of the following is the namespace you should use in your binding method?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The System.Drawing.Design namespace.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The System.Drawing.Imaging namespace.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The System.Drawing.Text namespace.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The Systern.Drawing namespace.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 1",
+        "question": "You are configuring the necessary data context for the list box as per the prerequisites.\r\nWhich of the following actions should you take?\r\nSystem.Collections.ObjectModel.ObservableCollection<T> class.\r\nSystem.Collections.ObjectModel.ReadOnlyObservableCollection<T> class.\r\nSystem.Collections.ObjectModel.ReadOnlyCollection<T> class.\r\nSystem.Collections.ObjectModel.ReadOnlyDictionary<ABCey, TValue> class.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider making use of the",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider making use of the",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider making use of the",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider making use of the",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "Topic 2, Mix Questions",
+    "questions": [
+      {
+        "header": "QUESTION NO: 48",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. The app is being designed\r\nby making use of the Model-View-ViewModel (MVVM) architectural pattern.\r\nWhich of the following represents code that would be part of the View layer? (Choose all that\r\napply.)",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " Code that deals with managing and retrieving application data.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Code that encapsulate the app’s state, actions, and operations.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Code that code that implements the app’s user experience.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " Code that implements business rules.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 47",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nMicrosoft 70-484 Exam\r\n  24\r\nYou are in the process of running a training exercise. You are discussing a property of the\r\nContactPicker class that configures the contact fields your app is interested in.\r\nWhich of the following is the property being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The SelectionMode property.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The DesiredFieldsWithContactFieldType property.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The CommitButtonTextproperty.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The DesiredFields property.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 46",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of designing an e-commerce app for ABC.com, which is styled on Windows\r\nStore apps. You have been instructed to make sure that reusability is augmented.\r\nWhich of the following actions should you take?\r\nPresentation layer.\r\nData layer.",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including the user interface XAML files in the Data layer.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including components that retrieve product info from the data store in the",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including the user interface XAML files in the Business layer.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including components that retrieve product info from the data store in the",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 45",
+        "question": "Explanation:\r\nMicrosoft 70-484 Exam\r\n  23\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing the\r\nEnableNotificationQueue method of the TileUpdater class.\r\nWhich of the following is TRUE with regards to this method?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It enables the notification queue on the small tile.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It enables the notification queue on the medium tile.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It enables the notification queue on the small tile.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It enables the notification queue on all tile sizes.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 44",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a method of the\r\nXmlElement class that adds the specified node to the beginning of the list of child nodes for this\r\nnode.\r\nWhich of the following is a method being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The ReplaceChild method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The GetEnumerator method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The AppendChild method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The PrependChild method.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 43",
+        "question": "Explanation:\r\nMicrosoft 70-484 Exam\r\n  22\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a method of the\r\nXmlElement class that returns an XmlNodeList containing a list of all descendant elements that\r\nmatch the specified Name.\r\nWhich of the following is a method being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The HasAttribute method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The GetAttributeNode method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The GetAttribute method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The GetElementsByTagName method.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 42",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing the\r\nEnableNotificationQueue method of the TileUpdater class.\r\nWhat is the maximum number of notifications that this method allows to be queued on the tile?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " 20",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " 15",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " 10",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " 5",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 41",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing the\r\nNavigationCacheMode enumeration of the Windows.UI.Xaml.Navigation namespace. You are\r\ncurrently discussing the Required member.\r\nWhich of the following is TRUE with regards to this member?\r\nthe cache size for the frame.\r\nthe cache size for the frame.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It prevents the page from being cached and a new instance of the page is created on each visit.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It allows the page to be cached and a new instance of the page is created on each visit.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It prevents the page from being cached, but the instance is reused for every visit regardless of",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It allows the page to be cached and the cached instance is reused for every visit regardless of",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 40",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a property of the\r\nApplicationView class of the Windows.UI.ViewManagement namespace. The property returns the\r\nstate of the current app view.\r\nWhich of the following is the property being discussed?\r\nMicrosoft 70-484 Exam\r\n  21",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The Title property.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The Orientation property.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Id property.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The Value property.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 39",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a member of the\r\nApplicationExecutionState enumeration that is seen when the app is activated via a secondary tile\r\nwhile it is running.\r\nWhich of the following is the member being discussed?\r\nE. ClosedByUser",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " Running",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Suspended",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Terminated",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " NotRunning",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 38",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a member of the\r\nApplicationExecutionState enumeration that is seen when the user first activates the app after\r\ninstalling the app from the Store.\r\nWhich of the following is the member being discussed?\r\nMicrosoft 70-484 Exam\r\n  20\r\nE. ClosedByUser",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " Running",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Suspended",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Terminated",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " NotRunning",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 37",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a class of the\r\nSystem.Drawing namespace that can be used to switch image objects from one data type to\r\nanother.\r\nWhich of the following is the class being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The Icon class.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The Graphics class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Image class.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The ImageConverter class.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 36",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a class of the\r\nSystem.Collections.ObjectModel namespace that represents a dynamic data collection that allows\r\nfor alerts when items are included, deleted, or when the whole list is refreshed.\r\nWhich of the following is the class being discussed?\r\nMicrosoft 70-484 Exam\r\n  19",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The ReadOnlyCollection<T> class.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The KeyedCollection<ABCey, TItem>class.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Collection<T> class.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The ObservableCollection<T> class.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 35",
+        "question": "http://msdn.microsoft.com/en-us/library/windows/apps/hh465192.aspx\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a method of the\r\nSearchPane class that returns an instance of the search pane from which users can search within\r\nthe app.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The SetLocalContentSuggestionSettings method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The Show method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The GetForCurrentView method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The GetSuggestions method.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 33",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You have implemented the\r\nMicrosoft design principle that removes unnecessary lines, boxes, or gradients.\r\nWhich of the following is the effect that this will have on the user interface?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " It allows for a layout that connects objects to the edges of the screen.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It allows for a clear data hierarchy",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It allows for direct communication with content",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It allows for a layout that is clean and open.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 32",
+        "question": "Explanation:\r\nhttp://msdn.microsoft.com/en-us/library/live/hh243647.aspx\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are required to make\r\nsure that the app satisfies the Windows Store certification prerequisites.\r\nWhich of the following are valid prerequisites? (Choose all that apply.)\r\nMicrosoft 70-484 Exam\r\n  17",
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " Your app should only display ads.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The app must launch in 5 seconds or less",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The app must suspend in 2 seconds or less",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " Apps should present a single tile subsequent to its installation.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 31",
+        "question": "Explanation:\r\nhttp://msdn.microsoft.com/en-us/library/system.net.http.httpresponsemessage.aspx\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing an OAuth2 flow that can\r\nbe used by web-based apps, and desktop apps.\r\nWhich of the following is the flow being discussed?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " Data flow.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Sign-in control flow.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Implicit grant flow.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " Authorization code grant flow.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 30",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are trying to determine\r\nif an HTTP request returned an Unauthorized conclusion.\r\nWhich of the following is the class you should use?\r\nMicrosoft 70-484 Exam\r\n  16",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " The HttpRequestException class.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The HttpMessageHandlerclass.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The HttpResponseMessage class.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The HttpRequestMessageclass.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 29",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are required to name a\r\nsuitable REST verb for updating modified app data.\r\nWhich of the following is the REST verb you should make use of?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The Merge REST verb.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The Connect REST verb.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Post REST verb.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The Put REST verb.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 28",
+        "question": "Explanation:\r\nhttp://msdn.microsoft.com/en-us/library/System.Drawing.Graphics_methods(v=vs.110).aspx\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nMicrosoft 70-484 Exam\r\n  15\r\nYou are in the process of running a training exercise. You are discussing the Implementation of\r\nGroup claims.\r\nWhich of the following is TRUE with regards to the appropriate use of Group claims?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " It should be used for group, role, and custom data.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It should be used for group and role purposes.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It should be used for role purposes only.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It should be used for group purposes only.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 27",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a method of the\r\nGraphics class that increases the world transformation of this Graphics and identified the Matrix.\r\nWhich of the following is the method being discussed?\r\nE. The ScaleTransform method.",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The RotateTransform method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The MultiplyTransform method.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The TransformPoints method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The ResetTransform method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 26",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nMicrosoft 70-484 Exam\r\n  14\r\nYou are in the process of creating a Windows Store app for ABC.com. You have decided to\r\nimplement a QuickLink for the app.\r\nWhich of the following is TRUE with regards to making use of a QuickLink? (Choose all that\r\napply.)",
+        "answer": [
+          "A",
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " It prevents the sharing settings to be stored.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It allows for sharing settings to be stored for impending use.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " A QuickLink actually stores app data.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It acts as a link to your app that's customized for a specific set of user actions.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 25",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are required to make\r\nsure that a specific event, which fires when the user submits the text in the search box and the\r\napp needs to display search results, is handled.\r\nWhich of the following is the event that has to be handled?",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " The QuerySubmitted event.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The QueryText event.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Show event.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The VisibilityChanged event.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 24",
+        "question": "Explanation:\r\nMicrosoft 70-484 Exam\r\n  13\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a method of the\r\nShareOperation class that closes the share pane.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The EndUI method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The CancelUI method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The CloseUI method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The DismissUI method.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 23",
+        "question": "Explanation:\r\nhttp://msdn.microsoft.com/enus/\r\nlibrary/System.Configuration.ConfigurationManager(v=vs.110).aspx\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a member of the\r\nDataRequest class that Cancels the sharing operation and supplies an error string to display to the\r\nuser.\r\nWhich of the following is the member in question?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The Data property.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The FailWithDisplayText method.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Deadline property.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The GetDeferral method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 22",
+        "question": "Explanation:\r\nMicrosoft 70-484 Exam\r\n  12\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a method of the\r\nConfigurationManager class that returns a specific configuration segment for the default\r\nconfiguration of the current application.\r\nWhich of the following is the method being discussed?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " The OpenMachineConfiguration method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The OpenExeConfiguration method.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The GetSection method.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The RefreshSection method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 21",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are required to name a\r\nsuitable REST verb for creating app data.\r\nWhich of the following is the REST verb you should make use of?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " The Merge REST verb.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The Connect REST verb.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Post REST verb.",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The Put REST verb.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 20",
+        "question": "Explanation:\r\nMicrosoft 70-484 Exam\r\n  11\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are trying to determine\r\nif an HTTP request was effectively completed.\r\nWhich of the following actions should you take?\r\nHttpCompletionOption Class.\r\nHttpMessageHandler Class.\r\nHttpRequestMessage Class.\r\nHttpResponseMessage Class.",
+        "answer": [
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider making use of the IsSuccessStatusCode property of the",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider making use of the IsSuccessStatusCode property of the",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider making use of the IsSuccessStatusCode property of the",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider making use of the IsSuccessStatusCode property of the",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 19",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing claims and their suitable\r\napplication.\r\nWhich of the following is a claim suited for application with User Principal Name (UPN), E-mail,\r\nand Common name?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " Universal.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Identity.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Group.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " Custom.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 18",
+        "question": "Explanation:\r\nMicrosoft 70-484 Exam\r\n  10\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a class of the\r\nWindows.Security.Credentials namespace that is retained for internal use and is not meant to be\r\nused in your code.\r\nWhich of the following is the class being discussed?\r\nE. The PasswordVault class.",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The PasswordCredential class.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The PasswordCredentialPropertyStore class.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The WebAccount class.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The WebAccountProvider class.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 17",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a class that includes the\r\narguments yielded by the most recent pointer event.\r\nWhich of the following is the class in question?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The KeyEventArgs class.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The PointerEventArgs class.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The InputEnabledEventArgs class.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The CoreWindowEventArgs class.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 16",
+        "question": "Explanation:\r\nhttp://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are preparing to create\r\na toast notification that will present an illustration, as well as wording.\r\nWhich of the following is the attribute that should be set for the notification?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The branding attribute.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The lang attribute.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The addImageQuery attribute.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The template attribute.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 15",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a method of the\r\nGraphics class that prepends the given translation to the transformation matrix of the Graphics to\r\nalter the source of the coordinate system.\r\nWhich of the following is the method being discussed?\r\nE. The ScaleTransform method.\r\nMicrosoft 70-484 Exam\r\n  9",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The RotateTransform method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The TranslateTransform method.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The TransformPoints method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The ResetTransform method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 14",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You have been informed\r\nthat the tile updates for the app should occur on an hourly basis, and that content should be\r\npushed to the app tile from an array of URLs.\r\nYou are preparing to write the necessary code to schedule tile updates for the app.\r\nWhich of the following should be included in the code?",
+        "answer": [
+          "C"
+        ],
+        "distractors": [
+          {
+            "text": " The StartPeriodicUpdate method.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The StartPeriodicUpdateBatch method.",
+            "answer": true,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Update method.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The AddToSchedule method.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 13",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of running a training exercise. You are discussing a property of the\r\nCollectionViewSource class that identifies the Source dependency property.\r\nWhich of the following is the property being discussed?\r\nMicrosoft 70-484 Exam\r\n  8",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " The IsSourceGrouped property.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " The IsSourceGroupedProperty property.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " The Source property.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " The SourceProperty property.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 12",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You have implemented the\r\nMicrosoft design principle that makes use of gestures rather than commands to control content.\r\nWhich of the following is the effect that this will have on the user interface?",
+        "answer": [
+          "B"
+        ],
+        "distractors": [
+          {
+            "text": " It allows for a layout that connects objects to the edges of the screen.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " It allows for a clear data hierarchy",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " It allows for direct communication with content",
+            "answer": true,
+            "originalPosition": "B"
+          },
+          {
+            "text": " It allows for a layout that is clean and open.",
+            "answer": false,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 11",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. The app is being designed\r\nby making use of the Model-View-ViewModel (MVVM) architectural pattern.\r\nWhich of the following represents code that would be part of the Model layer? (Choose all that\r\napply.)\r\nMicrosoft 70-484 Exam\r\n  7",
+        "answer": [
+          "A",
+          "D"
+        ],
+        "distractors": [
+          {
+            "text": " Code that deals with managing and retrieving application data.",
+            "answer": true,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Code that encapsulate the app’s state, actions, and operations.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Code that code that implements the app’s user experience.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " Code that implements business rules.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 10",
+        "question": "Explanation:\r\nYou are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of designing an e-commerce app for ABC.com, which is styled on Windows\r\nStore apps. You have been instructed to make sure that reusability is augmented.\r\nWhich of the following actions should you take?",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " You should consider including the user interface HTML files in the Presentation Layer.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " You should consider including the user interface XAML files in the Data Layer.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " You should consider including the user interface HTML files in the Business Layer.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " You should consider including the user interface XAML files in the Presentation Layer.",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      },
+      {
+        "header": "QUESTION NO: 9",
+        "question": "You are employed as a developer at ABC.com. ABC.com has a single Active Directory domain,\r\nnamed ABC.com.\r\nYou are in the process of creating a Windows Store app for ABC.com. You are required to make\r\nsure that the app satisfies the Windows Store certification prerequisites.\r\nWhich of the following are valid prerequisites? (Choose all that apply.)\r\nMicrosoft 70-484 Exam\r\n  6\r\ninteractions to display ads.",
+        "answer": [
+          "A"
+        ],
+        "distractors": [
+          {
+            "text": " Ads should implement program code whether it comes from the ad provider, or not.",
+            "answer": false,
+            "originalPosition": "D"
+          },
+          {
+            "text": " Your app should not display any ads.",
+            "answer": false,
+            "originalPosition": "C"
+          },
+          {
+            "text": " Apps should present multiple tiles subsequent to its installation.",
+            "answer": false,
+            "originalPosition": "B"
+          },
+          {
+            "text": " Your app should not make use of its tiles, notifications, app bar, or the swipe-from-edge",
+            "answer": true,
+            "originalPosition": "A"
+          }
+        ]
+      }
+    ]
+  }
+]
